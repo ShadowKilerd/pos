@@ -1,0 +1,111 @@
+# 1
+[
+     barcode
+     barcode
+     ...
+ ]
+
+# 2
+[
+    {barcode: string, quantity: number}
+    {barcode: string, quantity: number}
+    {barcode: string, quantity: number}
+    ...
+]
+
+# 3
+{
+    items: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        },
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        }
+    }
+}
+
+# 4
+{
+    items: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        },
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        }
+    },
+}
+
+# 5
+{
+    items: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        },
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        }
+    }
+    promotions: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number
+        }
+    }
+}
+
+# 6
+{
+    items: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+            discountQuantity: number
+        },
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+            needPayedQuantity: number
+        }
+    }
+    promotions: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number
+        }
+    },
+}
+
+# 6
+
+{
+    items: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        },
+        barcode: {
+            item: ItemInformation,
+            quantity: number,
+        }
+    }
+    promotions: {
+        barcode: {
+            item: ItemInformation,
+            quantity: number
+        }
+    },
+    discount: number,
+    total: number
+}
+
+# 7
+
+rendering

@@ -18,6 +18,9 @@
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "jasmine": "^2.6.0"
   }
 }
